@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "chatbot_koreai.chatbot_koreai",
+    "module": "chatbot_koreai_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chatbot_koreai_release-1.0.aar",
+          "url": "chatbot_koreai_release-1.0.aar",
+          "size": 19441,
+          "sha512": "a46089d4052b560c243b4834a9f0e01e77fa9af53f1dfb00068e97715d9c418b3bcb06e70b3be8bebb7ada42a897684d4a38e17ab4c82e4f91e7d7db0a524573",
+          "sha256": "850b612492646937279e380d55ef9e6136ab7fb7af69b998a9ef27a97078f09c",
+          "sha1": "54ec2cf7b1bfed80604ae3f9c7c1dea855a8b33a",
+          "md5": "c013dc1f276c3c4a6a9094617e17e19a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.mr.flutter.plugin.filepicker",
+          "module": "file_picker_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.jrai.flutter_keyboard_visibility",
+          "module": "flutter_keyboard_visibility_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chatbot_koreai_release-1.0.aar",
+          "url": "chatbot_koreai_release-1.0.aar",
+          "size": 19441,
+          "sha512": "a46089d4052b560c243b4834a9f0e01e77fa9af53f1dfb00068e97715d9c418b3bcb06e70b3be8bebb7ada42a897684d4a38e17ab4c82e4f91e7d7db0a524573",
+          "sha256": "850b612492646937279e380d55ef9e6136ab7fb7af69b998a9ef27a97078f09c",
+          "sha1": "54ec2cf7b1bfed80604ae3f9c7c1dea855a8b33a",
+          "md5": "c013dc1f276c3c4a6a9094617e17e19a"
+        }
+      ]
+    }
+  ]
+}

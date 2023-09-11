@@ -1,0 +1,11 @@
+framework module chatbot_koreai {
+  umbrella header "chatbot_koreai-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module chatbot_koreai.Swift {
+    header "chatbot_koreai-Swift.h"
+    requires objc
+}
